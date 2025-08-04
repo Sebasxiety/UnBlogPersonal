@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Fondo con degradado suave -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8f5e9" /> <!-- Verde claro -->
+      <stop offset="100%" stop-color="#e3f2fd" /> <!-- Azul claro -->
+    </linearGradient>
+    
+    <!-- Degradado para los teléfonos -->
+    <linearGradient id="phone-gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#212121" />
+      <stop offset="100%" stop-color="#424242" />
+    </linearGradient>
+    
+    <linearGradient id="phone-gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1565C0" />
+      <stop offset="100%" stop-color="#0D47A1" />
+    </linearGradient>
+    
+    <linearGradient id="phone-gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C62828" />
+      <stop offset="100%" stop-color="#B71C1C" />
+    </linearGradient>
+    
+    <linearGradient id="phone-gradient-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="600" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Título -->
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Venta de Celulares</text>
+  
+  <!-- Teléfono 1 (Negro) -->
+  <g transform="translate(100, 150)">
+    <!-- Cuerpo del teléfono -->
+    <rect x="0" y="0" width="80" height="160" rx="10" ry="10" fill="url(#phone-gradient-1)" />
+    
+    <!-- Pantalla -->
+    <rect x="5" y="15" width="70" height="130" rx="3" ry="3" fill="#E0F7FA" />
+    
+    <!-- Elementos de la interfaz -->
+    <rect x="15" y="30" width="50" height="10" rx="2" ry="2" fill="#B3E5FC" />
+    <rect x="15" y="45" width="50" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="15" y="55" width="30" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <rect x="15" y="70" width="50" height="50" rx="2" ry="2" fill="#81D4FA" />
+    
+    <rect x="15" y="125" width="20" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="40" y="125" width="25" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <!-- Botón home -->
+    <circle cx="40" cy="155" r="5" fill="#EEEEEE" />
+  </g>
+  
+  <!-- Teléfono 2 (Azul) -->
+  <g transform="translate(200, 150)">
+    <!-- Cuerpo del teléfono -->
+    <rect x="0" y="0" width="80" height="160" rx="10" ry="10" fill="url(#phone-gradient-2)" />
+    
+    <!-- Pantalla -->
+    <rect x="5" y="15" width="70" height="130" rx="3" ry="3" fill="#E0F7FA" />
+    
+    <!-- Elementos de la interfaz -->
+    <rect x="15" y="30" width="50" height="10" rx="2" ry="2" fill="#B3E5FC" />
+    <rect x="15" y="45" width="50" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="15" y="55" width="30" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <circle cx="40" cy="95" r="25" fill="#81D4FA" />
+    
+    <rect x="15" y="125" width="20" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="40" y="125" width="25" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <!-- Botón home -->
+    <circle cx="40" cy="155" r="5" fill="#EEEEEE" />
+  </g>
+  
+  <!-- Teléfono 3 (Rojo) -->
+  <g transform="translate(320, 150)">
+    <!-- Cuerpo del teléfono -->
+    <rect x="0" y="0" width="80" height="160" rx="10" ry="10" fill="url(#phone-gradient-3)" />
+    
+    <!-- Pantalla -->
+    <rect x="5" y="15" width="70" height="130" rx="3" ry="3" fill="#E0F7FA" />
+    
+    <!-- Elementos de la interfaz -->
+    <rect x="15" y="30" width="50" height="10" rx="2" ry="2" fill="#B3E5FC" />
+    <rect x="15" y="45" width="50" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="15" y="55" width="30" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <rect x="15" y="70" width="23" height="50" rx="2" ry="2" fill="#81D4FA" />
+    <rect x="42" y="70" width="23" height="50" rx="2" ry="2" fill="#81D4FA" />
+    
+    <rect x="15" y="125" width="20" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="40" y="125" width="25" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <!-- Botón home -->
+    <circle cx="40" cy="155" r="5" fill="#EEEEEE" />
+  </g>
+  
+  <!-- Teléfono 4 (Verde) -->
+  <g transform="translate(420, 150)">
+    <!-- Cuerpo del teléfono -->
+    <rect x="0" y="0" width="80" height="160" rx="10" ry="10" fill="url(#phone-gradient-4)" />
+    
+    <!-- Pantalla -->
+    <rect x="5" y="15" width="70" height="130" rx="3" ry="3" fill="#E0F7FA" />
+    
+    <!-- Elementos de la interfaz -->
+    <rect x="15" y="30" width="50" height="10" rx="2" ry="2" fill="#B3E5FC" />
+    <rect x="15" y="45" width="50" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="15" y="55" width="30" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <polygon points="40,70 15,120 65,120" fill="#81D4FA" />
+    
+    <rect x="15" y="125" width="20" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    <rect x="40" y="125" width="25" height="5" rx="1" ry="1" fill="#B3E5FC" />
+    
+    <!-- Botón home -->
+    <circle cx="40" cy="155" r="5" fill="#EEEEEE" />
+  </g>
+  
+  <!-- Elementos decorativos -->
+  <circle cx="50" cy="50" r="20" fill="#4CAF50" opacity="0.1" />
+  <circle cx="550" cy="50" r="25" fill="#2196F3" opacity="0.1" />
+  <circle cx="50" cy="350" r="30" fill="#FF9800" opacity="0.1" />
+  <circle cx="550" cy="350" r="20" fill="#9C27B0" opacity="0.1" />
+  
+  <!-- Texto descriptivo -->
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">Variedad de modelos y marcas disponibles</text>
+</svg>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Fondo con degradado suave -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8f5e9" /> <!-- Verde claro -->
+      <stop offset="100%" stop-color="#e3f2fd" /> <!-- Azul claro -->
+    </linearGradient>
+    
+    <!-- Degradado para el mostrador -->
+    <linearGradient id="counter-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" /> <!-- Verde -->
+      <stop offset="100%" stop-color="#2196F3" /> <!-- Azul -->
+    </linearGradient>
+    
+    <!-- Degradado para la ropa de Sebastian -->
+    <linearGradient id="sebastian-clothes" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" /> <!-- Verde -->
+      <stop offset="100%" stop-color="#2196F3" /> <!-- Azul -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="600" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Título -->
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Atención al Cliente</text>
+  
+  <!-- Pared de fondo -->
+  <rect x="50" y="100" width="500" height="250" fill="#ECEFF1" />
+  
+  <!-- Mostrador -->
+  <rect x="100" y="200" width="400" height="80" fill="url(#counter-gradient)" />
+  <rect x="100" y="280" width="400" height="20" fill="#37474F" /> <!-- Base del mostrador -->
+  
+  <!-- Parte frontal del mostrador -->
+  <rect x="100" y="200" width="400" height="10" fill="#37474F" />
+  
+  <!-- Logo en el mostrador -->
+  <circle cx="300" cy="240" r="25" fill="white" />
+  <text x="300" y="245" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">SD</text>
+  
+  <!-- Computadora en el mostrador -->
+  <rect x="400" y="180" width="60" height="40" fill="#BDBDBD" />
+  <rect x="405" y="185" width="50" height="30" fill="#2196F3" />
+  <rect x="425" y="220" width="10" height="10" fill="#BDBDBD" />
+  <rect x="415" y="230" width="30" height="2" fill="#BDBDBD" />
+  
+  <!-- Teléfono en el mostrador -->
+  <rect x="150" y="190" width="20" height="30" fill="#212121" />
+  <rect x="155" y="195" width="10" height="20" fill="#E0F7FA" />
+  
+  <!-- Sebastian (vendedor) -->
+  <g transform="translate(350, 150)">
+    <!-- Cabeza -->
+    <circle cx="0" cy="0" r="25" fill="#FFCCBC" />
+    
+    <!-- Cabello -->
+    <path d="M-25,-5 C-25,-15 -15,-25 0,-25 C15,-25 25,-15 25,-5 C25,0 20,5 15,10 L-15,10 C-20,5 -25,0 -25,-5 Z" fill="#4E342E" />
+    
+    <!-- Ojos -->
+    <ellipse cx="-10" cy="-5" rx="3" ry="2" fill="#212121" />
+    <ellipse cx="10" cy="-5" rx="3" ry="2" fill="#212121" />
+    
+    <!-- Cejas -->
+    <path d="M-15,-10 C-12,-12 -8,-12 -5,-10" fill="none" stroke="#4E342E" stroke-width="1" />
+    <path d="M5,-10 C8,-12 12,-12 15,-10" fill="none" stroke="#4E342E" stroke-width="1" />
+    
+    <!-- Nariz -->
+    <path d="M0,-5 L2,0 L-2,0 Z" fill="#FFAB91" />
+    
+    <!-- Boca (sonriendo) -->
+    <path d="M-10,10 C-5,15 5,15 10,10" fill="none" stroke="#FF5722" stroke-width="1" />
+    
+    <!-- Cuerpo -->
+    <rect x="-20" y="25" width="40" height="60" fill="url(#sebastian-clothes)" />
+    
+    <!-- Brazos -->
+    <rect x="-40" y="25" width="20" height="10" fill="url(#sebastian-clothes)" />
+    <rect x="20" y="25" width="30" height="10" fill="url(#sebastian-clothes)" />
+    <rect x="50" y="25" width="10" height="40" fill="url(#sebastian-clothes)" />
+    
+    <!-- Mano extendida -->
+    <circle cx="55" cy="65" r="8" fill="#FFCCBC" />
+    
+    <!-- Piernas (detrás del mostrador) -->
+    <rect x="-15" y="85" width="10" height="20" fill="#37474F" />
+    <rect x="5" y="85" width="10" height="20" fill="#37474F" />
+    
+    <!-- Etiqueta de nombre -->
+    <rect x="-15" y="30" width="30" height="10" fill="white" />
+    <text x="0" y="38" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#333">SEBASTIAN</text>
+  </g>
+  
+  <!-- Cliente -->
+  <g transform="translate(200, 170)">
+    <!-- Cabeza -->
+    <circle cx="0" cy="0" r="25" fill="#FFF9C4" />
+    
+    <!-- Cabello -->
+    <path d="M-20,-10 C-20,-20 -10,-25 0,-25 C10,-25 20,-20 20,-10 C20,-5 15,0 10,5 L-10,5 C-15,0 -20,-5 -20,-10 Z" fill="#795548" />
+    
+    <!-- Ojos -->
+    <ellipse cx="-10" cy="-5" rx="3" ry="2" fill="#212121" />
+    <ellipse cx="10" cy="-5" rx="3" ry="2" fill="#212121" />
+    
+    <!-- Cejas -->
+    <path d="M-15,-10 C-12,-12 -8,-12 -5,-10" fill="none" stroke="#795548" stroke-width="1" />
+    <path d="M5,-10 C8,-12 12,-12 15,-10" fill="none" stroke="#795548" stroke-width="1" />
+    
+    <!-- Nariz -->
+    <path d="M0,-5 L2,0 L-2,0 Z" fill="#FFF176" />
+    
+    <!-- Boca -->
+    <path d="M-5,10 L5,10" fill="none" stroke="#FF5722" stroke-width="1" />
+    
+    <!-- Cuerpo -->
+    <rect x="-20" y="25" width="40" height="60" fill="#FF9800" />
+    
+    <!-- Brazos -->
+    <rect x="-40" y="25" width="20" height="10" fill="#FF9800" />
+    <rect x="20" y="25" width="40" height="10" fill="#FF9800" />
+    
+    <!-- Mano sosteniendo un teléfono -->
+    <circle cx="60" cy="25" r="8" fill="#FFF9C4" />
+    <rect x="55" y="15" width="15" height="25" fill="#212121" />
+    <rect x="58" y="18" width="9" height="19" fill="#E0F7FA" />
+    
+    <!-- Piernas -->
+    <rect x="-15" y="85" width="10" height="50" fill="#5D4037" />
+    <rect x="5" y="85" width="10" height="50" fill="#5D4037" />
+    
+    <!-- Pies -->
+    <ellipse cx="-10" cy="135" rx="10" ry="5" fill="#3E2723" />
+    <ellipse cx="10" cy="135" rx="10" ry="5" fill="#3E2723" />
+  </g>
+  
+  <!-- Burbuja de diálogo (Sebastian) -->
+  <g transform="translate(420, 100)">
+    <path d="M0,0 L-20,30 L-10,30 L-10,50 L50,50 L50,0 Z" fill="white" stroke="#BDBDBD" stroke-width="1" />
+    <text x="25" y="20" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">¿En qué puedo</text>
+    <text x="25" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">ayudarle hoy?</text>
+  </g>
+  
+  <!-- Burbuja de diálogo (Cliente) -->
+  <g transform="translate(130, 120)">
+    <path d="M0,0 L20,30 L10,30 L10,50 L-50,50 L-50,0 Z" fill="white" stroke="#BDBDBD" stroke-width="1" />
+    <text x="-25" y="20" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">Me interesa este</text>
+    <text x="-25" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">nuevo modelo</text>
+  </g>
+  
+  <!-- Elementos decorativos en la pared -->
+  <rect x="100" y="120" width="80" height="50" fill="white" stroke="#BDBDBD" stroke-width="1" />
+  <text x="140" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">CELULARES</text>
+  
+  <rect x="420" y="120" width="80" height="50" fill="white" stroke="#BDBDBD" stroke-width="1" />
+  <text x="460" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">VEHÍCULOS</text>
+  
+  <!-- Texto descriptivo -->
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">Servicio personalizado y atención de calidad</text>
+</svg>

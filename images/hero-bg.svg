@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Fondo con degradado -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a472a" /> <!-- Verde oscuro -->
+      <stop offset="100%" stop-color="#0d47a1" /> <!-- Azul oscuro -->
+    </linearGradient>
+    
+    <!-- Patrón para textura de naturaleza -->
+    <pattern id="nature-pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <!-- Hojas estilizadas -->
+      <path d="M20,20 C30,10 40,5 50,10 C55,15 55,25 50,30 C45,35 35,35 30,30 C25,25 25,15 30,10" fill="#4CAF50" opacity="0.1" />
+      <path d="M100,50 C110,40 120,35 130,40 C135,45 135,55 130,60 C125,65 115,65 110,60 C105,55 105,45 110,40" fill="#81C784" opacity="0.1" />
+      <path d="M160,120 C170,110 180,105 190,110 C195,115 195,125 190,130 C185,135 175,135 170,130 C165,125 165,115 170,110" fill="#A5D6A7" opacity="0.1" />
+      <path d="M60,150 C70,140 80,135 90,140 C95,145 95,155 90,160 C85,165 75,165 70,160 C65,155 65,145 70,140" fill="#66BB6A" opacity="0.1" />
+    </pattern>
+    
+    <!-- Patrón para textura de tecnología -->
+    <pattern id="tech-pattern" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
+      <!-- Circuitos estilizados -->
+      <path d="M10,10 L50,10 L50,50 L100,50 L100,100 L150,100 L150,150" fill="none" stroke="#2196F3" stroke-width="1" opacity="0.1" />
+      <path d="M200,10 L200,50 L150,50 L150,100 L200,100 L200,150 L250,150" fill="none" stroke="#64B5F6" stroke-width="1" opacity="0.1" />
+      <path d="M10,200 L50,200 L50,250 L100,250 L100,200 L150,200" fill="none" stroke="#90CAF9" stroke-width="1" opacity="0.1" />
+      <path d="M200,200 L250,200 L250,250 L200,250 L200,300 L250,300" fill="none" stroke="#42A5F5" stroke-width="1" opacity="0.1" />
+      
+      <!-- Nodos de circuitos -->
+      <circle cx="10" cy="10" r="2" fill="#2196F3" opacity="0.2" />
+      <circle cx="50" cy="10" r="2" fill="#2196F3" opacity="0.2" />
+      <circle cx="50" cy="50" r="2" fill="#2196F3" opacity="0.2" />
+      <circle cx="100" cy="50" r="2" fill="#2196F3" opacity="0.2" />
+      <circle cx="100" cy="100" r="2" fill="#2196F3" opacity="0.2" />
+      <circle cx="150" cy="100" r="2" fill="#2196F3" opacity="0.2" />
+      <circle cx="150" cy="150" r="2" fill="#2196F3" opacity="0.2" />
+      
+      <circle cx="200" cy="10" r="2" fill="#64B5F6" opacity="0.2" />
+      <circle cx="200" cy="50" r="2" fill="#64B5F6" opacity="0.2" />
+      <circle cx="150" cy="50" r="2" fill="#64B5F6" opacity="0.2" />
+      <circle cx="200" cy="100" r="2" fill="#64B5F6" opacity="0.2" />
+      <circle cx="200" cy="150" r="2" fill="#64B5F6" opacity="0.2" />
+      <circle cx="250" cy="150" r="2" fill="#64B5F6" opacity="0.2" />
+      
+      <circle cx="10" cy="200" r="2" fill="#90CAF9" opacity="0.2" />
+      <circle cx="50" cy="200" r="2" fill="#90CAF9" opacity="0.2" />
+      <circle cx="50" cy="250" r="2" fill="#90CAF9" opacity="0.2" />
+      <circle cx="100" cy="250" r="2" fill="#90CAF9" opacity="0.2" />
+      <circle cx="100" cy="200" r="2" fill="#90CAF9" opacity="0.2" />
+      <circle cx="150" cy="200" r="2" fill="#90CAF9" opacity="0.2" />
+      
+      <circle cx="200" cy="200" r="2" fill="#42A5F5" opacity="0.2" />
+      <circle cx="250" cy="200" r="2" fill="#42A5F5" opacity="0.2" />
+      <circle cx="250" cy="250" r="2" fill="#42A5F5" opacity="0.2" />
+      <circle cx="200" cy="250" r="2" fill="#42A5F5" opacity="0.2" />
+      <circle cx="200" cy="300" r="2" fill="#42A5F5" opacity="0.2" />
+      <circle cx="250" cy="300" r="2" fill="#42A5F5" opacity="0.2" />
+    </pattern>
+  </defs>
+  
+  <!-- Fondo principal -->
+  <rect width="1920" height="1080" fill="url(#bg-gradient)" />
+  
+  <!-- Capa de textura de naturaleza -->
+  <rect width="1920" height="1080" fill="url(#nature-pattern)" />
+  
+  <!-- Capa de textura de tecnología -->
+  <rect width="1920" height="1080" fill="url(#tech-pattern)" />
+  
+  <!-- Montañas estilizadas (representando naturaleza) -->
+  <path d="M0,1080 L0,700 L300,900 L600,650 L900,850 L1200,600 L1500,800 L1800,700 L1920,750 L1920,1080 Z" fill="#1a472a" opacity="0.5" />
+  
+  <!-- Líneas de horizonte de ciudad (representando tecnología) -->
+  <path d="M0,750 L100,750 L100,720 L150,720 L150,740 L200,740 L200,700 L250,700 L250,730 L300,730 L300,710 L350,710 L350,750 L400,750 L400,720 L450,720 L450,740 L500,740 L500,710 L550,710 L550,730 L600,730 L600,700 L650,700 L650,720 L700,720 L700,750 L750,750 L750,730 L800,730 L800,710 L850,710 L850,740 L900,740 L900,720 L950,720 L950,750 L1000,750 L1000,730 L1050,730 L1050,710 L1100,710 L1100,740 L1150,740 L1150,720 L1200,720 L1200,750 L1250,750 L1250,730 L1300,730 L1300,710 L1350,710 L1350,740 L1400,740 L1400,720 L1450,720 L1450,750 L1500,750 L1500,730 L1550,730 L1550,710 L1600,710 L1600,740 L1650,740 L1650,720 L1700,720 L1700,750 L1750,750 L1750,730 L1800,730 L1800,710 L1850,710 L1850,740 L1900,740 L1900,720 L1920,720 L1920,750" fill="none" stroke="#2196F3" stroke-width="2" opacity="0.3" />
+  
+  <!-- Partículas brillantes (estrellas/luces) -->
+  <g>
+    <circle cx="100" cy="100" r="1" fill="white" opacity="0.5" />
+    <circle cx="300" cy="200" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="500" cy="150" r="1" fill="white" opacity="0.4" />
+    <circle cx="700" cy="300" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="900" cy="100" r="1" fill="white" opacity="0.3" />
+    <circle cx="1100" cy="250" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="1300" cy="150" r="1" fill="white" opacity="0.4" />
+    <circle cx="1500" cy="200" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="1700" cy="100" r="1" fill="white" opacity="0.3" />
+    <circle cx="1900" cy="300" r="1.5" fill="white" opacity="0.6" />
+    
+    <circle cx="200" cy="400" r="1" fill="white" opacity="0.4" />
+    <circle cx="400" cy="350" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="600" cy="450" r="1" fill="white" opacity="0.3" />
+    <circle cx="800" cy="400" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="1000" cy="350" r="1" fill="white" opacity="0.4" />
+    <circle cx="1200" cy="450" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="1400" cy="400" r="1" fill="white" opacity="0.3" />
+    <circle cx="1600" cy="350" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="1800" cy="450" r="1" fill="white" opacity="0.4" />
+    
+    <circle cx="150" cy="550" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="350" cy="500" r="1" fill="white" opacity="0.3" />
+    <circle cx="550" cy="550" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="750" cy="500" r="1" fill="white" opacity="0.4" />
+    <circle cx="950" cy="550" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="1150" cy="500" r="1" fill="white" opacity="0.3" />
+    <circle cx="1350" cy="550" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="1550" cy="500" r="1" fill="white" opacity="0.4" />
+    <circle cx="1750" cy="550" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="1850" cy="500" r="1" fill="white" opacity="0.3" />
+  </g>
+</svg>
